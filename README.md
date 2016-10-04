@@ -45,7 +45,7 @@ can access every bit of the `vector<unsigned char>`, where the highest
 index denotes the highest bytes, e.g. you save 16 bits and covert them
 to an integer:
 
-Representation       | Values                              |                                      |
+Representation       | Values                              | Values                               |
 :--------------------|:-----------------------------------:|:------------------------------------:|
 Memory               |`0   1   0   1   0   0   0   1`&nbsp;|&nbsp;` 1   0   0   0   0   1   0   1`|
 Vector element       |                 [1]                 |                  [0]                 |
