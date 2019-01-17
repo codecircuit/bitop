@@ -42,7 +42,7 @@ cp_f.asFloat_IEEE754() == f;  // evaluates to true
 The given class can save bits from a certain memory location and
 converts the bits to a vector of characters to save them internally. You
 can access every bit of the `vector<unsigned char>`, where the highest
-index denotes the highest bit, e.g. you save 16 bits and convert them
+index denotes the highest byte, e.g. you save 16 bits and convert them
 to an integer:
 
 Representation       | Values                              | Values                               |
