@@ -1,3 +1,5 @@
+**Notes of deprecation: There exist much more general and safer concepts in the standard library like `std::byte`, `std::any`, or `std::variant`**
+
 # BIts TO character Pack (bitop) Library
 
 C++ lacks of dynamic type casting, which represents a difficulty when
